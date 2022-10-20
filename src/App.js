@@ -35,7 +35,7 @@ function App() {
       <h2 id='welcome'>Welcome to Melp</h2>
       <div className="container" >
         {restaurants.length >1 ?  
-        <CardView restaurants={restaurants} /> : <h2>LOADING ...</h2>}
+        <CardView restaurants={restaurants} /> : <><h2>LOADING ...</h2><p id='welcome1'>not displaying anything?,due to a Cors Policy,  please install and activate <a href="https://chrome.google.com/webstore/detail/moesif-origin-cors-change/digfbfaphojjndkpccljibejjbppifbc">this chrome extention</a></p> </>}
       </div>
       
     </div>
