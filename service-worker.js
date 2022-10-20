@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/EDT-FrontTest/precache-manifest.977eaba4323cab73129e0ca5576d1c7e.js"
+  "/EDT-Test/precache-manifest.84c2a41682418942f9f4820de0fcf896.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/EDT-FrontTest/index.html", {
+workbox.routing.registerNavigationRoute("/EDT-Test/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });
