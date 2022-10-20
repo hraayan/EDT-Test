@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "f4177c19f4aa61751a8c",
+    "revision": "8e27923e0444bcc937ac",
     "url": "/EDT-Test/static/css/main.15e34949.chunk.css"
   },
   {
-    "revision": "f4177c19f4aa61751a8c",
-    "url": "/EDT-Test/static/js/main.f4177c19.chunk.js"
+    "revision": "8e27923e0444bcc937ac",
+    "url": "/EDT-Test/static/js/main.8e27923e.chunk.js"
   },
   {
     "revision": "fbee9149cc341e4ff9a0",
@@ -28,7 +28,7 @@ self.__precacheManifest = [
     "url": "/EDT-Test/static/media/food-wall.a2da7237.jpg"
   },
   {
-    "revision": "b8aaad046fb9184e124a1bf5af59decf",
+    "revision": "190bac875d56dea736d2b7004d72a4c4",
     "url": "/EDT-Test/index.html"
   }
 ];
