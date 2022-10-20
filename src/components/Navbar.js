@@ -17,7 +17,7 @@ function Navbar(){
 
   return(
     <header>
-      <a href="/home" id="app-title"><h1>Melp App <span className="no-shadow">🍽️</span></h1></a>     
+      <a href="/EDT-Test/" id="app-title"><h1>Melp App <span className="no-shadow">🍽️</span></h1></a>     
       <nav ref={navRef}>
         <a href="#">Home</a>
         <a href="#">All Restaurantes</a>
