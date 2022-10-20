@@ -1,7 +1,7 @@
 {
   "main.css": "/EDT-Test/static/css/main.6999ace3.chunk.css",
-  "main.js": "/EDT-Test/static/js/main.8f5bbff2.chunk.js",
-  "main.js.map": "/EDT-Test/static/js/main.8f5bbff2.chunk.js.map",
+  "main.js": "/EDT-Test/static/js/main.e76145ee.chunk.js",
+  "main.js.map": "/EDT-Test/static/js/main.e76145ee.chunk.js.map",
   "static/js/1.fbee9149.chunk.js": "/EDT-Test/static/js/1.fbee9149.chunk.js",
   "static/js/1.fbee9149.chunk.js.map": "/EDT-Test/static/js/1.fbee9149.chunk.js.map",
   "static/js/2.6135f627.chunk.js": "/EDT-Test/static/js/2.6135f627.chunk.js",
@@ -12,6 +12,6 @@
   "static/media/App.css": "/EDT-Test/static/media/food-wall.a2da7237.jpg",
   "static/css/main.6999ace3.chunk.css.map": "/EDT-Test/static/css/main.6999ace3.chunk.css.map",
   "index.html": "/EDT-Test/index.html",
-  "precache-manifest.fb3ee998907f6d10ccececc049cf134b.js": "/EDT-Test/precache-manifest.fb3ee998907f6d10ccececc049cf134b.js",
+  "precache-manifest.84c2a41682418942f9f4820de0fcf896.js": "/EDT-Test/precache-manifest.84c2a41682418942f9f4820de0fcf896.js",
   "service-worker.js": "/EDT-Test/service-worker.js"
 }
