@@ -1,0 +1,123 @@
+/* importando fuentes de google */
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: "Josefin Sans", sans-serif;
+}
+
+/* declarando variables de colores */
+:root {
+	--mainColor: #002fdb;
+	--mainColorLight: #00af98e7;
+	--secondaryColor: #00f0e8e9;
+	--textColor: rgb(17, 16, 22);
+}
+
+header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	height: 80px;
+	padding: 0 2rem;
+	background: linear-gradient(90deg, #67b26f 0%, #4ca2cd 100%);
+	color: var(--textColor);
+	font-weight: bold;
+
+}
+
+h1 {
+	font-family: "Dancing Script", cursive;
+	font-size: 3rem;
+	top: 0;
+	margin-bottom: .6%;
+	font-weight: bold;
+	text-shadow: 4px 4px 6px rgb(255, 255, 255);
+}
+
+h1:hover {
+	color: var(--mainColor);
+}
+
+#app-title {
+	text-decoration: none;
+	color: var(--textColor);
+}
+
+.no-shadow {
+	text-shadow: none;
+	margin-top: 3px;
+	font-size: 3.2rem;
+}
+
+nav a {
+	margin: 0 1rem;
+	color: var(--textColor);
+	text-decoration: none;
+	font-size: 1.3rem;
+	text-shadow: 1px 1px 5px white;
+}
+
+nav a:hover {
+	color: var(--secondaryColor);
+}
+
+header .nav-btn {
+	padding: 5px;
+	cursor: pointer;
+	background: transparent;
+	border: none;
+	outline: none;
+	color: var(--textColor);
+	visibility: hidden;
+	opacity: 0;
+	font-size: 1.8rem;
+}
+
+header div,
+nav {
+	display: flex;
+	align-items: center;
+}
+
+/* medidas de pantalla para navbar */
+@media only screen and (max-width: 1024px) {
+	header .nav-btn {
+		visibility:visible;
+		opacity: 5;
+	}
+
+	header nav {
+		position: fixed;
+		top: 0;
+		left: 0;
+		height: 100%;
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		gap: 1.5rem;
+		background-color: var(--mainColorLight);
+		transition: 1s;
+		transform: translateX(-150vh);
+		z-index: 50;
+	}
+
+	header .responsive_nav {
+		transform: none;
+	}
+
+	nav .nav-close-btn {
+		position: absolute;
+		top: 2rem;
+		right: 2rem;
+	}
+
+	nav a {
+		font-size: 1.5rem;
+	}
+}

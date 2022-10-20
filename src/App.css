@@ -1,0 +1,49 @@
+*{
+  box-sizing: border-box;
+}
+html,body{
+  background: url('./images/food-wall.jpg');
+  
+  background-repeat: repeat;
+  
+}
+.App {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.container{
+  
+  margin-top: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  overflow-y: scroll;
+}
+.hide-me{
+  visibility: hidden;
+}
+
+h2 {
+	font-family: "Dancing Script", cursive;
+	font-size: 4rem;
+	top: 0;
+	margin-bottom: .6%;
+	font-weight: bold;
+	text-shadow: 4px 4px 6px rgb(255, 255, 255);
+  background-color: rgba(11, 204, 185, 0.738);
+  border-radius: 40px;
+  width: 150vh;
+}
+#welcome{
+  font-size: 5rem;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.879);
+  border-radius: 0px;
+  margin-bottom: 5px;
+}

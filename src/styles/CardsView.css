@@ -1,0 +1,47 @@
+/* contenedor principal de los cards */
+.principal-container {
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  width: 98rem;
+  min-width: 450px;
+  min-height: 700px;
+  padding: 25px;
+  margin: 10px;
+  justify-content: flex-start;
+  background: rgba(165, 182, 176, 0.7);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(6.5px);
+  -webkit-backdrop-filter: blur(6.5px);
+  border-radius: 25px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+
+/* adaptar a diferentes tamanos de pantallas */
+@media only screen and (max-width: 1080px) {
+  .cards {
+    background-color: aliceblue;
+    width: 60vh;
+    margin: 20px;
+    padding: 10px;
+    height: fit-content;
+  }
+
+  .principal-container {
+    justify-content: center;
+  }
+}
+@media only screen and (min-width: 1200px) and (max-width: 1550px){
+  .cards {
+    background-color: aliceblue;
+    width: 59vh;
+    margin: 20px;
+    padding: 10px;
+    height: 323px;
+  }
+  .principal-container {
+    justify-content: center;
+  }
+}
+

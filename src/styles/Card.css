@@ -1,0 +1,119 @@
+/* cards de la iformacion de los restaurantes */
+.cards {
+  background-color: aliceblue;
+  width: 47.2vh;
+  min-height: max-content;
+  
+  border-radius: 15px;
+  margin: 20px;
+  padding: 10px;
+  box-shadow: 4px 3px 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: black;
+}
+/* info restaurant */
+.info {
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin: 1px 8px 8px;
+  margin-left: -1px;
+  display: flex;
+  flex-direction: column;
+  overflow-wrap: anywhere;
+  width: 50%;
+  text-align: justify;
+}
+/* titulos restaurant */
+.titles {
+  font-size: 2.5vh;
+  font-weight: bold;
+  justify-content: center;
+  align-items: flex-start;
+  text-align: left;
+}
+
+.contact-info {
+  margin-top: 15px;
+  margin-left: 4px;
+  font-size: large;
+  text-align: left;
+}
+.email{
+  font-size: 1rem;
+}
+
+/* div imagen, rating, botones */
+.info2 {
+  margin: 1px 8px 8px;
+  margin-left: -1px;
+  display: flex;
+  flex-direction: column;
+  overflow-wrap: anywhere;
+  width: 50%;
+  text-align: justify;
+  position: relative;
+}
+
+/* contenedor de imagen */
+.image {
+  width: 100%;
+  height: 120px;
+}
+
+/* imagen */
+.rest-image {
+  width: 100%;
+  height: auto;
+  max-height: 100%;
+}
+
+/* div de raiting */
+.raiting{
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  overflow-wrap: break-word;
+  margin-top: 4%;
+}
+.raiting-icon{
+  color: rgb(255, 183, 0);  
+  font-size: 1.8rem;
+  justify-content: center;
+  align-items: center;
+  margin-left: 0;
+  text-align: center;
+  margin-top: 3%;
+}
+
+/* texto Raiting */
+#rate-text{
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin: 1px;
+  padding: 2px;
+}
+
+.social-btns{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content:flex-start;
+  align-items:center;
+  width: 100%;
+  margin: 5px;
+  margin-left: 5%;
+  position: absolute;
+  bottom: 0px;
+}
+
+@media only screen and (max-width: 1650px) {
+  .social-btns{
+    right: 4%;
+  }
+  
+}
